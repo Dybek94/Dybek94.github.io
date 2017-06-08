@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Eventos</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="estilos.css">
+	</head>
+	
+	<body id=fondo>
+		<div id=secondfondo>
+			<header>
+				
+			</header>
+			
+			<nav>
+				<ul id=navigation>
+					<li class="menu1"><a href="index.html">Inicio</a><li>
+					<li class="dropdown">
+						<a href="#" class="dropbtn">Eventos</a>
+						<div class="dropdown-content">
+							<a href="bodas.html">Bodas</a>
+							<a href="comuniones.html">Comuniones</a>
+							<a href="bautizos.html">Bautizos</a>
+						</div>
+					</li>
+					<li class="menu1"><a href="donde_estamos.html">Donde estamos</a><li>
+					<li class="menu1"><a href="contacto.html">Contacto</a><li>
+					
+				</ul>
+			</nav>
+			
+			<section>
+				<h2>Contacto</h2>
+				<form>
+					<fieldset>
+						<legend><h2>Particulares</h2></legend>
+						<label for="name">Nombre: <span>*</span> <input type="text" name="Nombre" placeholder="Nombre"id="n"></label>
+						<label for="ap">Primer apellido:<span>*</span> <input type="text" name="Primer apellido" placeholder="Primer apellido"id="ap1"></label>
+						<label for="ap">Segundo apellido: <input type="text" name="apellido2" placeholder="Segundo apellido"id="ap2"></label>
+						<label for="dni">D.N.I: <span>*</span> <input type="text" name="dni" placeholder="Máximo 9 caracteres"id="dni"></label>
+						<label for="mail">Email:<span>*</span> <input type "email" name ="email"placeholder="Direccion de correo electronico"class="email"></label>
+						<label for="asunto">Asunto:<span>*</span></label>
+						<select name="ausnto"id="asunto">
+							<option value="opcion1">General</option>
+							<option value="opcion2">Quiero organizar un evento</option>
+							<option value="opcion3">Me gustaría colaborar</option>
+						</select>
+					</fieldset>
+					
+					<fieldset>
+						<legend><h2>Empresas</h2></legend>
+						<label for="Calle">Nombre:<span>*</span> <input type="text" name="nombre" placeholder="Nombre de la empresa"id="nombreempresa"> </label>
+						<label for="razonsocial">Razón Social: <span>*</span><input type="text" name="loc" placeholder="Ejemplo bodas, comuniones, comidas de empresa etc"id="razonsocial"></label>
+						<label for="marcacomercial">Marca Comercial:<span>*</span> <input type="text" name="marca" placeholder="Marca comercial"id="marcacomercial"></label>
+						<label for="cif">C.I.F.:<span>*</span> <input type="text" name="cif" placeholder="Me gustaría colaborar"id="cif"></label>
+						<label for="telefonoempresa">Teléfono de contacto:<span>*</span> <input type="text" name="calle" placeholder="Teléfono de empresa"id="cif"> </label>
+						<label for="mail">email: <span>*</span><input type="text" name="email" placeholder="email"class="email"></label>
+					</fieldset>
+					<input type="submit" id="boton" value ="Enviar formulario de contacto">	
+				</form>
+			</section>
+			
+			<footer class="piepagina">
+			<img id="logo" src="imagenes/logo.jpg">
+				<p>
+					Alejandro Herrera Lerma: All rights reserved 
+					<img class="copyright" src="imagenes/derechos.jpg">
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="fotos.xsl" type="text/xsl"?>
+<fotos>
+
+    <bodas>
+    
+      <boda ruta="imagenes/boda/boda1.jpg"/>
+      <boda ruta="imagenes/boda/boda2.jpg"/>
+      <boda ruta="imagenes/boda/boda3.jpg"/>
+      <boda ruta="imagenes/boda/boda4.jpg"/>
+      
+    </bodas>
+</fotos>

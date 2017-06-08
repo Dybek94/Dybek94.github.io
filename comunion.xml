@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="fotos.xsl" type="text/xsl"?>
+<fotos>
+
+    <comuniones>
+    
+      <comunion ruta="imagenes/comunion/comunion1.jpg"/>
+      <comunion ruta="imagenes/comunion/comunion2.jpg"/>
+      <comunion ruta="imagenes/comunion/comunion3.jpg"/>
+      <comunion ruta="imagenes/comunion/comunion4.jpg"/>
+      
+    </comuniones>
+</fotos>
